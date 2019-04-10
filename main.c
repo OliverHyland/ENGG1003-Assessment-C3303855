@@ -1,25 +1,24 @@
 #include <stdio.h>
 
-/*the first couple of hours of lab 1 were spent understanding and simplifying the
-dense brief for the assessment task. Beyond that, research was taken into the types of ciphers
-and pseudocode was begun. This is why this initial commit does not contain much code*/
-
-/* resolved confusion regarding e(x) = (m + k) mod 26, recognizing it does not multiply by the modulus but
-this is a simplified way of stating that the value needs to be tested and adjusted if it falls outside the range
-of 0 and 25. Additionally studied lecture content and wrote pseudocode for an array, using a pointer to an element,
-adding the key to it, and the incrementing the pointer to the next element, exiting at the end of the array */
-
-//Task 1: Encryption of a message with a rotation cipher given the message text and rotation amount
-
 int main ()
 {
-  printf("Hello world!\n");  
-  printf("Hello world!\n"); 
-  printf("Hello world!\n"); 
-  printf("Hello world!\n"); 
-  return 0;
-  
-  char string[] = {         }; 
-  string + i = string + i + k;
-  i++;
+    
+    
+FILE*filepointer;                                      //file pointer to the data type FILE
+filepointer = fopen("input", "r");         // the file named input of data type FILE, open it for reading
+Int key = (a number)                             //declare your key for the encryption
+Int counter = 0;                                      //declare and initialise the counter which will be used to point in the array
+While (feof(input)==0)                         //so long it is not true that we are at the end of the file, execute the loop:
+Char asciiFriend;                                   //declaring a variable of data type char
+Fscanf(input, "%c", &asciiFriend);      //read a character from file input of type char and send it to the variable asciiFriend
+asciiFriend = asciiFriend + key;         //an ASCII character has been given a value after being read as char, now add the key
+Counter++;                                           //increase your counter by the value 
+
+
+
+Char str[1024];  //scanning the first element in the array str
+Scanf("%s", str);  //%s prints and scans strings as ASCII even though they are values right now
+
+
+
 }

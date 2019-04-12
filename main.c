@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main ()
+
+    char array[] = "hello there";
+    while (i != \0)
+        scanf(array, )
+
+/*
 {
     FILE*input;
     input = fopen("input", "r");
@@ -17,4 +23,5 @@ int main ()
     }
     for (counter = 0; counter < 1000; counter = (counter + 2))
         printf("%c", text[counter]);
+        */
 }

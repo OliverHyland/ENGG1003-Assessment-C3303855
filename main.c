@@ -14,10 +14,11 @@ int main ()
         {
             encryptionElement = encryptionElement + encryptionKey;                      //let each element be assigned to the value of that element plus the key
             if (encryptionElement > 'z')                                                //when an element has an ASCII value outside a to z, subtract the value of z to allow it to loop around to a again (maybe)
-            encyryptionElement = encyryptionElement - 'z'; 
+            encryptionElement = encryptionElement - 'z'; 
         }
         encryptionText[arrayCounter] = encryptionElement;                               //assign the new element with the added key back to the (arrayCounter)th position in the encyrptionText array. Loop then starts again, incrementing the position in the array and applying the same process, adding the key to the next element and re-assigning it
     }
+    printf("%s", encryptionText);                                                       //print the string after each element has had the key added to it
 }
 
 

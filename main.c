@@ -5,7 +5,6 @@ int main ()
     char encryptionText[] = "the lazy fox jumped over the log";                                               //hard-coded array of text, a string
     char encryptionKey = 3;                                                             //declare and initialise a key for encyrption
     int arrayCounter, encryptionElement;                                                //declare a variable to increment and point to elements in the array, and a variable to assign elements to, in order to add the key
-    //char rotationOverflow;                                                              //declare a variable to store the remainder/modulus when the ASCII value is greater than Z
     for (arrayCounter = 0; encryptionText[arrayCounter] != '\0'; arrayCounter++)        //from the start of the string, continue so long as the string has not reached its end, incrementing after each loop
     {
         encryptionElement = encryptionText[arrayCounter];                               //an element in the encryptionText string is given by the (arrayCounter)th position
